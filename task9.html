@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p{
+        color: blue;
+    }
+    td{
+        color: blue;}
+    div{
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2.5px solid blue;
+        box-shadow: 0 0 0 1px black;
+        width: 600px;
+        padding: 20px;
+        margin: 20px;
+    }
+    .a{
+        border: none;
+        background-color: rgba(159, 157, 157, 0.822);
+        border: 3px solid rgb(205, 205, 215);
+        box-shadow: 2px 2px 3px 0px blue ;
+        width: 18%;
+        margin-left: 140px;
+    }
+    .b{
+        border: none;
+        background-color: rgba(159, 157, 157, 0.822);
+        border: 3px solid rgb(205, 205, 215);
+        box-shadow: 2px 2px 3px 0px blue ;;
+        width: 18%;
+        margin-left: 20px;
+    }
+    .c{
+        margin-left: 30px;
+        width: 250px; ;
+    }
+    .d{
+        margin-left: 70px;
+        width: 250px;
+    }
+    .e{
+        margin-left: 20px;
+    }
+</style>
+<body>
+    <b>
+    <div>
+    <h2 style="color: blue;">Please complete our survey</h2>
+    <h3>Contact information</h3>
+    <table>
+        <tr>
+            <td><label for="Email">Email address:</label></td>
+            <td ><input class="c" type="text" id="Email"></td>
+        </tr>
+        <tr>
+            <td><label for="Name">First name:</label></td>
+            <td><input class="c" type="text" id="Name"></td>
+        </tr>
+        <tr>
+            <td><label for="LastName">Last name:</label></td>
+            <td><input class="c" type="text" id="LastName"></td>
+        </tr>
+    </table>
+    <h3>Geographic information</h3>
+    <table>
+        <tr>
+            <td><label for="State">State:</label></td>
+            <td ><input class="d" type="text" required placeholder="Two characters" maxlength="20"></td>
+        </tr>
+        <tr>
+            <td><label for="Code">Zip code:</label></td>
+            <td ><input class="d" type="text" required placeholder="Five digits" maxlength="5"></td>
+        </tr>
+    </table>
+    <h3>How did you hear about us?</h3>
+    <table>
+        <tr>
+            <td><label for="Web Search">Web Search:</label></td>
+            <td><input class="e" type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><label for="Facebook">Facebook:</label></td>
+            <td><input class="e" type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><label for="Twitter">Twitter:</label></td>
+            <td><input class="e" type="checkbox"></td>
+        </tr>
+        <tr>
+            <td><label for="Email message">Email message:</label></td>
+            <td><input class="e" type="checkbox"></td>
+        </tr>
+    </table>
+    <h3>Thank you for taking our survey!</h3>
+
+    <input class="a" type="submit" value="Submit"> 
+    <input class="b" type="reset" value="Reset">
+    </div></b>
+</body> 
+</html>
